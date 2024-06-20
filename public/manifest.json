@@ -25,7 +25,7 @@
     "author": "AIAgentPoC",
     "createdAt": "2024-06-18",
     "homepage": "https://github.com/lobehub/chat-plugin-template",
-    "identifier": "plugin-start-build-dev",
+    "identifier": "plugin-start-build",
     "meta": {
       "avatar": "🚀",
       "tags": ["test"],
