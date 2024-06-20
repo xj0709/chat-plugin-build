@@ -21,7 +21,7 @@ const Render = memo(() => {
 
   useEffect(() => {
     lobeChat.getPluginPayload().then((payload) => {
-      if (payload.name === 'startBuildAssistant') {
+      if (payload.name === 'startBuild') {
         setPayload(payload.arguments);
         // console.log('插件名称:', payload.name);
         // console.log('插件参数:', payload.arguments);
