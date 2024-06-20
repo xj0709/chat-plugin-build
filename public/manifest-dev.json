@@ -2,45 +2,24 @@
   "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
-      "functions": [
-        {
-          "name": "startBuild",
-          "description": "start a build based on user's input: gttscope and baseline",
-          "parameters": {
-            "properties": {
-              "baseline": {
-                "description": "the baseline of this build, ask user to provide this information",
-                "type": "string"
-              },
-              "gttscope": {
-                "type": "string",
-                "enum": ["normal", "fivegonly"],
-                "description": "the gttscope, ask user to provide this information"
-              }
-            },
-            "required": ["baseline", "gttscope"],
-            "type": "object"
+      "url": "https://chat-plugin-build.vercel.app/api/startbuild",
+      "name": "startBuild",
+      "description": "start a build based on user's input: gttscope and baseline",
+      "parameters": {
+        "properties": {
+          "baseline": {
+            "description": "the baseline of this build, ask user to provide this information",
+            "type": "string"
+          },
+          "gttscope": {
+            "type": "string",
+            "enum": ["normal", "fivegonly"],
+            "description": "the gttscope, ask user to provide this information"
           }
-        }
-      ],
-      "messages": [
-        {
-          "role": "user",
-          "content": "start a build"
         },
-        {
-          "role": "assistant",
-          "content": "please tell me the baseline and the gttscope"
-        },
-        {
-          "role": "user",
-          "content": "CXS101289_R245C93, normal"
-        },
-        {
-          "role": "assistant",
-          "content": "build for CXS101289_R245C93 with normal gttscope has been started successfully"
-        }
-      ]
+        "required": ["baseline", "gttscope"],
+        "type": "object"
+      }
     }
   ],
   "author": "AIAgentPoC",
