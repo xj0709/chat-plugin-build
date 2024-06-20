@@ -1,7 +1,7 @@
-import { manClothes } from '@/data';
+import { buildResult } from '@/data-dev';
 
 export const data = {
-  clothes: manClothes['happy'],
-  baseline: 'happy',
+  clothes: buildResult['ok'],
+  baseline: '1.1.1',
   today: Date.now(),
 };

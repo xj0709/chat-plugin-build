@@ -2,7 +2,7 @@
   "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
-      "url": "https://chat-plugin-template.vercel.app/api/endpoint",
+      "url": "https://chat-plugin-template.vercel.app/api/startbuild",
       "name": "startBuildAss",
       "description": "start a build based on user's input: with gttscope and the baseline",
       "parameters": {
@@ -25,7 +25,7 @@
   "author": "LobeHub",
   "createdAt": "2023-09-03",
   "homepage": "https://github.com/lobehub/chat-plugin-template",
-  "identifier": "plugin-identifier",
+  "identifier": "plugin-start-build",
   "meta": {
     "avatar": "🚀",
     "tags": ["test"],
