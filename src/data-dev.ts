@@ -2,13 +2,13 @@ export const buildResult = {
     fail: [
         {
           description: 'fail to start the build',
-          name: 'CXS101289_R245C92',
+          name: 'build2',
         }
       ],
     ok: [
       {
-        description: 'build is started successfully',
-        name: 'CXS101289_R245C93',
+        description: 'build is start successfully',
+        name: 'build1',
       },
     ],
   };  

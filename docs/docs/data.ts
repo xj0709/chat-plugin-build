@@ -1,7 +1,7 @@
 import { buildResult } from '@/data-dev';
 
 export const data = {
-  baseline: 'CXS101289_R245C93',
-  result: buildResult['ok'],
+  clothes: buildResult['ok'],
+  baseline: '1.1.1',
   today: Date.now(),
 };
