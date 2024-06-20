@@ -1,5 +1,5 @@
 {
-  "name": "plugin-start-build",
+  "name": "plugin-start-build-dev",
   "version": "1.5.1",
   "private": true,
   "description": "This is the BuildAssistant to help you start a build",
