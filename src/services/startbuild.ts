@@ -5,6 +5,6 @@ export const startBuild = async (params: RequestData) => {
     body: JSON.stringify(params),
     method: 'POST',
   });
-  console.log(res.json());
+  // console.log(res.json());
   return res.json();
 };

@@ -20,7 +20,7 @@ export default async (req: Request) => {
     today: Date.now(),
   };
 
-  console.log(buildresult);
+//   console.log(buildresult);
 
   return new Response(JSON.stringify(buildresult));
 };

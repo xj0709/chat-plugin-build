@@ -23,7 +23,7 @@ const Render = memo(() => {
     lobeChat.getPluginPayload().then((payload) => {
       if (payload.name === 'startBuildAssistant') {
         setPayload(payload.arguments);
-        console.log(payload.arguments);
+        // console.log(payload.arguments);
       }
     });
   }, []);
